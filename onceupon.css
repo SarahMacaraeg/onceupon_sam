@@ -1,0 +1,61 @@
+#head1 {
+text-align: center;
+color: bisque;
+font-family: georgia,serif;
+font-size: 45px;
+}
+
+.center {
+text-align: center;
+color: blueviolet;
+}
+.large{
+font-size:45px;
+}
+
+#p1{
+text-align: center;
+color: bisque;
+font-family: georgia,serif;
+font-size: 22px;
+}
+
+
+body{
+background-image: url('conjunction.png'); 
+background-repeat: repeat-x;
+
+}
+
+/* Style the side navigation */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
+}
